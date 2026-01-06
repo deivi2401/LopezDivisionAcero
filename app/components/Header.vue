@@ -1,11 +1,10 @@
 <template>
-  <div class="">
+  <div>
     
   </div>
-  
 </template>
 
-<script lang="js" setup>
+<script lang="ts" setup>
 
 </script>
 

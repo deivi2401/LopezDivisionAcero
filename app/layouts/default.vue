@@ -1,8 +1,11 @@
 <template>
-  <div>
-    <slide1-navegacion />
+  <Header />
+
+  <main>
     <slot />
-  </div>
+  </main>
+
+  <Footer />
 </template>
 
 <script lang="ts" setup>
