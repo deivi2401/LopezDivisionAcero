@@ -3,9 +3,11 @@ export default {
   prefix: 'tw-',
 	important: false,
 	content: [
-		"**/*.{html, jsx, js}",
-		"**/*.js",
-		"**/*.html",
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './app.vue',
+    './plugins/**/*.{js,ts}',
 	],
 	theme: {
 		extend: {

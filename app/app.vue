@@ -1,5 +1,4 @@
 <script setup lang="js">
-import GreetingCard from './components/Slide1/GreetingCard.vue';
 import { VueLenis, useLenis } from 'lenis/vue';
 import { watch } from 'vue'
 
